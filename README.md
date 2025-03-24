@@ -5,7 +5,7 @@
 
 <h2>Tecnologías</h2>
 <ul>
-  <li><strong>.NET 6</strong></li>
+  <li><strong>.NET 8.0</strong></li>
   <li><strong>ASP.NET MVC</strong></li>
   <li><strong>SQL Server</strong></li>
   <li><strong>Entity Framework Core</strong></li>
