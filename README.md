@@ -33,6 +33,3 @@
   <li><strong>PUT /api/students/{id}</strong> - Actualiza un estudiante existente.</li>
   <li><strong>DELETE /api/students/{id}</strong> - Elimina un estudiante por ID.</li>
 </ul>
-
-<h2>Licencia</h2>
-<p>Licencia MIT</p>
