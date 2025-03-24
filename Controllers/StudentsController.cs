@@ -64,6 +64,37 @@ namespace mvc_estudiantes.Controllers
             return View(student);
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Dni,BirthDate,FirstName,LastName,Email")] Student student)
+        {
+            if (ModelState.IsValid)
+            {
+                var createdStudent = await _apiService.CreateStudent(student);
+
+                if (!createdStudent)
+                    return NotFound();
+
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(student);
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var success = await _apiService.DeleteStudent(id);
+            if(success)
+                return RedirectToAction(nameof(Index));
+
+            return NotFound();
+        }
+
 
     }
 }

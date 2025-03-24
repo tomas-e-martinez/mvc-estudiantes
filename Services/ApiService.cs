@@ -44,5 +44,19 @@ namespace mvc_estudiantes.Services
 
             return response.IsSuccessStatusCode;
         }
+
+        public async Task<bool> CreateStudent(Student student)
+        {
+            var response = await _httpClient.PostAsJsonAsync("api/studentsapi", student);
+
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteStudent(int id)
+        {
+            var response = await _httpClient.DeleteAsync($"api/studentsapi/{id}");
+
+            return response.IsSuccessStatusCode;
+        }
     }
 }
