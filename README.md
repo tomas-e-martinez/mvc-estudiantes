@@ -22,7 +22,7 @@
   <pre><code>dotnet ef database update</code></pre>
   <li>Ejecuta el proyecto:</li>
   <pre><code>dotnet run</code></pre>
-  <p>Accede a la aplicación en <strong>https://localhost:5001</strong>.</p>
+  <p>Accede a la aplicación en <strong>https://localhost:{puerto}</strong>.</p>
 </ol>
 
 <h2>API Endpoints</h2>
