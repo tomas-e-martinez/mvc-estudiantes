@@ -1,7 +1,7 @@
 <h1>Proyecto CRUD - MVC y APIs REST</h1>
 
 <h2>Descripción</h2>
-<p>Este proyecto es una implementación de un CRUD de estudiantes utilizando el patrón de diseño MVC y una API REST. Se interactúa con la base de datos SQL Server mediante <strong>Entity Framework Core</strong>.</p>
+<p>Este proyecto es una implementación de un CRUD de práctica utilizando el patrón de diseño MVC y una API REST. Se interactúa con la base de datos SQL Server mediante <strong>Entity Framework Core</strong>.</p>
 
 <h2>Tecnologías</h2>
 <ul>
