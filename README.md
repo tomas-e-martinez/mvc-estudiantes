@@ -14,7 +14,7 @@
 <h2>Instalación</h2>
 <ol>
   <li>Clona el repositorio:</li>
-  <pre><code>git clone https://github.com/tu_usuario/tu_repositorio.git</code></pre>
+  <pre><code>git clone https://github.com/tomas-e-martinez/mvc-estudiantes.git</code></pre>
   <li>Restaura los paquetes NuGet:</li>
   <pre><code>dotnet restore</code></pre>
   <li>Configura la cadena de conexión en <strong>appsettings.json</strong>.</li>
